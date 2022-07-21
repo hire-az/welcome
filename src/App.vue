@@ -92,7 +92,7 @@
                 </section>
                 <section>
                     <div class="flex items-center -mx-52 xs:px-8">
-                        <div class="w-1/2 text-center space-y-5 whitespace-nowrap">
+                        <div class="w-1/2 text-center space-y-5 whitespace-nowrap xs:hidden">
                             <div class="space-x-4">
                                 <div class="inline-block bg-gray-100 rounded px-2.5 py-1.5 w-max">
                                     Tikinti
@@ -195,7 +195,7 @@
                                 профессии. Hire подсветит вам вакансию если она близка вам по профессии и по желаниям
                             </div>
                         </div>
-                        <div class="w-1/2 text-center space-y-5 whitespace-nowrap">
+                        <div class="w-1/2 text-center space-y-5 whitespace-nowrap xs:hidden">
                             <div class="space-x-4">
                                 <div class="inline-block bg-gray-100 rounded px-2.5 py-1.5 w-max">
                                     Sığorta
@@ -312,7 +312,7 @@
                 </section>
             </section>
         </div>
-        <footer class="py-4 mt-auto w-full bg-white dark:bg-gray-800">
+        <footer class="py-4 mt-auto w-full bg-white dark:bg-gray-800 xs:px-8">
             <div class="container flex justify-between items-center mx-auto">
                 <a href="#"
                    class="text-xl font-bold text-gray-800 hover:text-gray-700 dark:text-white dark:hover:text-gray-300">Hire™</a>
