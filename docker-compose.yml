@@ -11,8 +11,7 @@ services:
         hostname: front
         ports:
             - "80:80"
-        command:
-            -   'yarn serve'
+        command: yarn serve
         networks:
             - front
 
