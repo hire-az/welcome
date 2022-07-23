@@ -4,7 +4,9 @@ services:
     welcome:
         build:
             context: ./
-            dockerfile: ./.docker/development/node/Dockerfile
+            dockerfile: ./.docker/development/node
+        volumes:
+            - ./:/app
         hostname: front
         container_name: welcome
         command: yarn serve
