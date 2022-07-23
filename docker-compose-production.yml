@@ -4,7 +4,7 @@ services:
     welcome:
         build:
             context: ./
-            dockerfile: ./.docker/development/node
+            dockerfile: ./.docker/development/node/Dockerfile
         volumes:
             - ./:/app
         hostname: front
