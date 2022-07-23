@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+    welcome:
+        build:
+            context: ./
+            dockerfile: ./.docker/production/node/Dockerfile
+        hostname: front
+        container_name: welcome
+        command: yarn serve
+        networks:
+            - front
+            - gateway
+        restart: unless-stopped
+
+networks:
+    front:
+        name: front
+
+    gateway:
+        name: gateway
+        external: true
