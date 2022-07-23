@@ -4,7 +4,7 @@ services:
     welcome:
         build:
             context: ./
-            dockerfile: ./.docker/production/node/Dockerfile
+            dockerfile: ./.docker/development/node/Dockerfile
         hostname: front
         container_name: welcome
         command: yarn serve
