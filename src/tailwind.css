@@ -55,6 +55,7 @@
         @apply cursor-pointer
         relative
         text-white
+        select-none
         font-normal
         whitespace-nowrap
         border
@@ -82,6 +83,7 @@
         relative
         text-white
         font-normal
+        select-none
         whitespace-nowrap
         border
         border-transparent
@@ -111,6 +113,7 @@
         text-sm
         text-center
         rounded
+        select-none
         py-[5px]
         font-normal
         align-middle
@@ -135,6 +138,7 @@
         whitespace-nowrap
         border
         xs:w-full
+        select-none
         text-sm
         rounded
         py-[5px]
